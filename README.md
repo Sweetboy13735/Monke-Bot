@@ -18,5 +18,5 @@ I'm always open for any improvements! Pease check out the link above for more in
 ## Authors and acknowledgement
 Author(s): Ramone "Sweetboy13735" Graham (Me! :D)
 
-## [Licensing](https://github.com/Sweetboy13735/Sweetboy13735.github.io/blob/master/LICENSE)
+## [Licensing](https://github.com/Sweetboy13735/Monke-Bot/blob/master/LICENSE)
 This project is licensed under the MIT License. More info about this can be found in the link above.
