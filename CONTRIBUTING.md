@@ -1,4 +1,4 @@
-# Contributing to my portfolio page
+# Contributing to Monke Bot
 First of all, thanks for having an interest in contributing. It really means a lot! :D
 
 Monke Bot was originally created as a shit-post, but I'm always open for any improvements!
