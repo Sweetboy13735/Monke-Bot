@@ -1,0 +1,26 @@
+{
+  "name": "monke-bot",
+  "version": "1.0.0",
+  "description": "A Discord bot about monkeys. That's it.",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sweetboy13735/Monke-Bot.git"
+  },
+  "keywords": [
+    "Discord",
+    "Bot",
+	"Discord-bot",
+    "Discord-JS",
+    "Monke"
+  ],
+  "author": "Ramone Graham",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Sweetboy13735/Monke-Bot/issues"
+  },
+  "homepage": "https://github.com/Sweetboy13735/Monke-Bot#readme"
+}
