@@ -1,12 +1,12 @@
 /**
  * Represents the core of the bot.
- * When the program starts executing, this file is responsible for handling the bot's main functions.
+ * When the main program starts executing, this file is responsible for handling the bot's main functions.
  * @author Ramone Graham
  */
 // Initialise dotenv
 require("dotenv").config();
 
-// Package imports
+// External package imports
 const { Client, Intents } = require("discord.js");
 
 // Create a new client instance
