@@ -13,7 +13,7 @@
   "keywords": [
     "Discord",
     "Bot",
-	"Discord-bot",
+    "Discord-bot",
     "Discord-JS",
     "Monke"
   ],
@@ -22,5 +22,11 @@
   "bugs": {
     "url": "https://github.com/Sweetboy13735/Monke-Bot/issues"
   },
-  "homepage": "https://github.com/Sweetboy13735/Monke-Bot#readme"
+  "homepage": "https://github.com/Sweetboy13735/Monke-Bot#readme",
+  "dependencies": {
+    "discord.js": "^13.6.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.15.0"
+  }
 }
