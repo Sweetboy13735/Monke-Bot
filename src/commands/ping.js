@@ -5,6 +5,7 @@
 // External package imports
 const { SlashCommandBuilder } = require("@discordjs/builders");
 
+// Module exports
 module.exports = {
 	// Slash command data
 	data: new SlashCommandBuilder().setName("ping").setDescription("Replies with Pong!"),
