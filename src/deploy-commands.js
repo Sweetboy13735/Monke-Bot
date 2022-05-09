@@ -7,7 +7,7 @@
 require("dotenv").config();
 
 // External package imports
-const { SlashCommandBuilder } = require("@discordjs/builders");
+const fileSystem = require("node:fs");
 const { REST } = require("@discordjs/rest");
 const { Routes } = require("discord-api-types/v9");
 
@@ -15,7 +15,13 @@ const { Routes } = require("discord-api-types/v9");
 const { clientID, guildID } = require("./config.json");
 
 // Collect all existing commands
-const commands = [].map(command => command.toJSON());
+const commands = [], commandFiles = fileSystem.readdirSync("./src/commands").filter(file => file.endsWith(".js"));
+
+for (const file of commandFiles) {
+	const command = require(`./commands/${file}`);
+
+	commands.push(command.data.toJSON());
+}
 
 // Login to Discord using the bot token
 const rest = new REST({ version: "9" }).setToken(process.env.TOKEN);
