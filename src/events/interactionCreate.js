@@ -1,6 +1,6 @@
 /**
  * Represents the event callback for the "interactionCreate" event.
- * When the event is emitted, this file is responsible for handling any tasks that take place when an interaction is created.
+ * When the event is emitted, this script is responsible for handling any tasks that take place when an interaction is created.
  * @author Ramone Graham
  */
 // Module exports
@@ -9,10 +9,10 @@ module.exports = {
 	name: "interactionCreate",
 
 	// Event execution
-	async execute(commands, interaction) {
+	async execute(interaction) {
 		if (!interaction.isCommand()) return;
 
-		const command = commands.get(interaction.commandName);
+		const command = interaction.client.commands.get(interaction.commandName);
 
 		if (!command) return;
 

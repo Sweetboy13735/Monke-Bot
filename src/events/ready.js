@@ -1,6 +1,6 @@
 /**
  * Represents the event callback for the "ready" event.
- * When the event is emitted, this file is responsible for handling any tasks that take place when the bot connects to Discord.
+ * When the event is emitted, this script is responsible for handling any tasks that take place when the bot connects to Discord.
  * @author Ramone Graham
  */
 // Local module imports
@@ -15,7 +15,7 @@ module.exports = {
 	once: true,
 
 	// Event execution
-	execute() {
+	async execute() {
 		console.log(readyMessage);
 	}
 };
